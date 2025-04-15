@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
                   Logout
                 </button>
               </div>
-            ) : ( <></> /*
+            ) : ( <></>  /*
               <div className="flex items-center space-x-4">
                 <Link to="/login" className="px-4 py-2 text-sm font-medium text-primary border border-primary rounded-md hover:bg-gray-50">
                   Login
